@@ -1,20 +1,18 @@
-## keepassweb
-
-This organization is not the KeePass Web application. The application is
-[KeePass Web](https://keepass-web.app/), built and maintained by the
-[keepass-web](https://github.com/keepass-web) organization — note the
+**This organization is not the KeePass Web application.** That is located
+at [KeePass Web](https://keepass-web.app/), and is built and maintained by
+the [keepass-web](https://github.com/keepass-web) organization — note the
 hyphen, which is the whole reason this organization exists.
 
-### Why this organization exists
+# Why this organization exists
 
-Password managers are a common target for lookalike domains: a name a
+Password managers are a common target for lookalike domains[^1]: a name a
 letter or a hyphen off from the real one, hosting a copy of the login
 page to collect credentials. `keepassweb` and `keepass-web` differ by
 exactly one character. Rather than leave that name, and others like it,
 available for someone else to register, this organization holds them and
 watches for further lookalikes appearing elsewhere.
 
-### What it does
+# What it does
 
 - Holds domains and GitHub Pages sites that could otherwise be used to
   impersonate KeePass Web, and serves an identical parked page from each
@@ -24,7 +22,7 @@ watches for further lookalikes appearing elsewhere.
   `keepass-web.app`, and opens an issue with evidence when one is found
   serving content that resembles the KeePass Web brand.
 
-### How it does it
+# How it does it
 
 - [`parked-domain-tools`](https://github.com/keepassweb/parked-domain-tools) —
   syncs the parked-page template from
@@ -36,3 +34,5 @@ watches for further lookalikes appearing elsewhere.
   one needs a closer look.
 
 Questions about a specific repo belong on that repo's issue tracker.
+
+[^1]:https://github.com/MacPass/MacPass/blob/4d91de9aa8e816de02d2bd83814c4d28fd71d0ce/README.md#macpassapporg-was-dropped-due-to-a-fuck-up-on-my-part
