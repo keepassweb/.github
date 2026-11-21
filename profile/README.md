@@ -5,7 +5,7 @@ hyphen, which is the whole reason this organization exists.
 
 # Why this organization exists
 
-Password managers are a common target for lookalike domains[^1]: a name a
+Password managers are a common target for lookalike domains[^1]: a name, a
 letter or a hyphen off from the real one, hosting a copy of the login
 page to collect credentials. `keepassweb` and `keepass-web` differ by
 exactly one character. Rather than leave that name, and others like it,
